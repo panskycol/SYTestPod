@@ -6,7 +6,22 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		D790EE9528F2C58E00488EA0 /* TPFBasicSDKScript */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D790EE9828F2C58E00488EA0 /* Build configuration list for PBXAggregateTarget "TPFBasicSDKScript" */;
+			buildPhases = (
+				D790EE9928F2C59300488EA0 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = TPFBasicSDKScript;
+			productName = TPFBasicSDKScript;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		CB8CEB1A210BE6D8DF36200D /* libPods-TPFBasicSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFF00841D33C51671FBA080 /* libPods-TPFBasicSDK.a */; };
 		D70B703D28D30637005A5726 /* SYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = D70B703B28D30637005A5726 /* SYAlertView.h */; };
 		D70B703E28D30637005A5726 /* SYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70B703C28D30637005A5726 /* SYAlertView.m */; };
 		D70B704428D308D0005A5726 /* UIColor+Conver.h in Headers */ = {isa = PBXBuildFile; fileRef = D70B704228D308D0005A5726 /* UIColor+Conver.h */; };
@@ -153,6 +168,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06A814BA6A6EA5FA02132220 /* Pods-TPFBasicSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPFBasicSDK.release.xcconfig"; path = "Target Support Files/Pods-TPFBasicSDK/Pods-TPFBasicSDK.release.xcconfig"; sourceTree = "<group>"; };
+		33177F976AF491CF44BD2B85 /* Pods-TPFBasicSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPFBasicSDK.debug.xcconfig"; path = "Target Support Files/Pods-TPFBasicSDK/Pods-TPFBasicSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		D70B703B28D30637005A5726 /* SYAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAlertView.h; sourceTree = "<group>"; };
 		D70B703C28D30637005A5726 /* SYAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAlertView.m; sourceTree = "<group>"; };
 		D70B704228D308D0005A5726 /* UIColor+Conver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Conver.h"; sourceTree = "<group>"; };
@@ -298,6 +315,7 @@
 		D7FB1A72289A9B66007AAA70 /* SYHttpHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYHttpHelper.m; sourceTree = "<group>"; };
 		D7FFB72428B373C100C46318 /* SYKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYKeychain.h; sourceTree = "<group>"; };
 		D7FFB72528B373C100C46318 /* SYKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYKeychain.m; sourceTree = "<group>"; };
+		DAFF00841D33C51671FBA080 /* libPods-TPFBasicSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TPFBasicSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +323,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8CEB1A210BE6D8DF36200D /* libPods-TPFBasicSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +337,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E7AAEF57E454FFE334A6EBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33177F976AF491CF44BD2B85 /* Pods-TPFBasicSDK.debug.xcconfig */,
+				06A814BA6A6EA5FA02132220 /* Pods-TPFBasicSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C3BCD8D01A24BDE8C3F2752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAFF00841D33C51671FBA080 /* libPods-TPFBasicSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D70B703A28D3061B005A5726 /* AlertView */ = {
 			isa = PBXGroup;
 			children = (
@@ -560,6 +596,8 @@
 				D7FB1A2B289A8348007AAA70 /* TPFBasicSDK */,
 				D7FB1A45289A856C007AAA70 /* TPFBasicSDKBundle */,
 				D7FB1A2A289A8348007AAA70 /* Products */,
+				1E7AAEF57E454FFE334A6EBC /* Pods */,
+				7C3BCD8D01A24BDE8C3F2752 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -747,6 +785,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7FB1A30289A8348007AAA70 /* Build configuration list for PBXNativeTarget "TPFBasicSDK" */;
 			buildPhases = (
+				18183BC05BDB446DFA4544F8 /* [CP] Check Pods Manifest.lock */,
 				D7FB1A24289A8348007AAA70 /* Headers */,
 				D7FB1A25289A8348007AAA70 /* Sources */,
 				D7FB1A26289A8348007AAA70 /* Frameworks */,
@@ -790,6 +829,9 @@
 				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "尚游网络";
 				TargetAttributes = {
+					D790EE9528F2C58E00488EA0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 					D7FB1A28289A8348007AAA70 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -813,6 +855,7 @@
 			targets = (
 				D7FB1A28289A8348007AAA70 /* TPFBasicSDK */,
 				D7FB1A40289A8501007AAA70 /* TPFBasicSDKBundle */,
+				D790EE9528F2C58E00488EA0 /* TPFBasicSDKScript */,
 			);
 		};
 /* End PBXProject section */
@@ -838,6 +881,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		18183BC05BDB446DFA4544F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TPFBasicSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D790EE9928F2C59300488EA0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#要build的target名\nTARGET_NAME=${PROJECT_NAME}\nif [[ $1 ]]\nthen\nTARGET_NAME=$1\nfi\nUNIVERSAL_OUTPUT_FOLDER=\"${SRCROOT}/${PROJECT_NAME}Upload/\"\n\n#创建输出目录，并删除之前的framework文件\nrm -rf \"${UNIVERSAL_OUTPUT_FOLDER}\"\nmkdir -p \"${UNIVERSAL_OUTPUT_FOLDER}\"\n\n#编译模拟器的Framework\nxcodebuild -target \"${TARGET_NAME}SDK\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n#拷贝framework到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}SDK.framework\" \"${UNIVERSAL_OUTPUT_FOLDER}\"\n#拷贝bundle到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}Bundle.bundle\" \"${UNIVERSAL_OUTPUT_FOLDER}\"\n\n#打开合并后的文件夹\nopen \"${UNIVERSAL_OUTPUT_FOLDER}\"\n\n";
+		};
 		D7FB1A4B289A8916007AAA70 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -939,6 +1021,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D790EE9628F2C58E00488EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D790EE9728F2C58E00488EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D7FB1A2E289A8348007AAA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1057,6 +1155,7 @@
 		};
 		D7FB1A31289A8348007AAA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33177F976AF491CF44BD2B85 /* Pods-TPFBasicSDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -1093,6 +1192,7 @@
 		};
 		D7FB1A32289A8348007AAA70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A814BA6A6EA5FA02132220 /* Pods-TPFBasicSDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -1172,6 +1272,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D790EE9828F2C58E00488EA0 /* Build configuration list for PBXAggregateTarget "TPFBasicSDKScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D790EE9628F2C58E00488EA0 /* Debug */,
+				D790EE9728F2C58E00488EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D7FB1A23289A8348007AAA70 /* Build configuration list for PBXProject "TPFBasicSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

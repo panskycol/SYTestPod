@@ -1,0 +1,16 @@
+PODS:
+  - SYTestPod (0.1.0)
+
+DEPENDENCIES:
+  - SYTestPod (from `../`)
+
+EXTERNAL SOURCES:
+  SYTestPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYTestPod: f99a707c8e80c7eb18ecf8d5215333e9292e396d
+
+PODFILE CHECKSUM: ea5baab35e387af346cffac99168fadfe53d58bc
+
+COCOAPODS: 1.11.3

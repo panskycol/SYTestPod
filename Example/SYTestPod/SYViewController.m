@@ -7,6 +7,7 @@
 //
 
 #import "SYViewController.h"
+#import <SYTestPod/TPFBasicSDK.h>
 
 @interface SYViewController ()
 

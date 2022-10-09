@@ -477,18 +477,6 @@
 		D7652331289B724C005C052A /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				D70B704228D308D0005A5726 /* UIColor+Conver.h */,
-				D70B704328D308D0005A5726 /* UIColor+Conver.m */,
-				D7DCB41D28BE3B530073BAED /* UIView+YYAdd.h */,
-				D7DCB41E28BE3B530073BAED /* UIView+YYAdd.m */,
-				D765233E289B78E9005C052A /* NSObject+Null.h */,
-				D765233F289B78E9005C052A /* NSObject+Null.m */,
-				D78ED2BA28AF69A200376A0F /* NSString+Dictionary.h */,
-				D78ED2BB28AF69A200376A0F /* NSString+Dictionary.m */,
-				D7B56B0E28B8D1050074183C /* NSString+MD5.h */,
-				D7B56B0F28B8D1050074183C /* NSString+MD5.m */,
-				D7B56B0A28B8CE900074183C /* NSDictionary+String.h */,
-				D7B56B0B28B8CE900074183C /* NSDictionary+String.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -613,6 +601,18 @@
 		D7FB1A2B289A8348007AAA70 /* TPFBasicSDK */ = {
 			isa = PBXGroup;
 			children = (
+				D70B704228D308D0005A5726 /* UIColor+Conver.h */,
+				D70B704328D308D0005A5726 /* UIColor+Conver.m */,
+				D7DCB41D28BE3B530073BAED /* UIView+YYAdd.h */,
+				D7DCB41E28BE3B530073BAED /* UIView+YYAdd.m */,
+				D765233E289B78E9005C052A /* NSObject+Null.h */,
+				D765233F289B78E9005C052A /* NSObject+Null.m */,
+				D78ED2BA28AF69A200376A0F /* NSString+Dictionary.h */,
+				D78ED2BB28AF69A200376A0F /* NSString+Dictionary.m */,
+				D7B56B0E28B8D1050074183C /* NSString+MD5.h */,
+				D7B56B0F28B8D1050074183C /* NSString+MD5.m */,
+				D7B56B0A28B8CE900074183C /* NSDictionary+String.h */,
+				D7B56B0B28B8CE900074183C /* NSDictionary+String.m */,
 				D75AA9F328B4DFFA00487BB4 /* TPFBasicMacro.h */,
 				D7FB1A2C289A8348007AAA70 /* TPFBasicSDK.h */,
 				D75AA9DE28B4D6B100487BB4 /* TPFBasicConfig.h */,

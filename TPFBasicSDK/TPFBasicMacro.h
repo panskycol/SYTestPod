@@ -9,7 +9,7 @@
 #ifndef TPFBasicMacro_h
 #define TPFBasicMacro_h
 
-#import "UIColor+Conver.h"
+//#import "UIColor+Conver.h"
 #import "NSObject+Null.h"
 #import "UIView+YYAdd.h"
 #import "YYText.h"

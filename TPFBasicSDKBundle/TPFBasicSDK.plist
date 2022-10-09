@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SERVERID</key>
+	<string>0</string>
+	<key>CHANNELID</key>
+	<string>3</string>
+	<key>APPID</key>
+	<string>50</string>
+	<key>APPSECRET</key>
+	<string>pppu</string>
+	<key>APPKEY</key>
+	<string>mmo</string>
+	<key>EVENT_APPKEY</key>
+	<string>2eb6bbbd31834a94a767b40cca319e19</string>
+	<key>PROXY0</key>
+	<string>http://10.0.3.29:33306</string>
+	<key>PROXY</key>
+	<string>http://10.100.2.181:33306</string>
+	<key>PROXY1</key>
+	<string>http://10.100.1.176:33306</string>
+	<key>PROXY2</key>
+	<string>http://inner-common-proxy.sygame.com:33306</string>
+	<key>URL_DATA_REPORT</key>
+	<string>http://192.168.16.131:26800</string>
+</dict>
+</plist>

@@ -84,6 +84,7 @@
 #import "AFURLResponseSerialization.h"
 #import "AFURLSessionManager.h"
 #import "SYWKWebView.h"
+#import "TPFBasicSDK.h"
 #import "TPFBasicConfig.h"
 #import "TPFBasicMacro.h"
 #import "TPFBasicSDK.h"

@@ -1,9 +1,9 @@
 {
   "name": "SYTestPod",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of SYTestPod.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/hula/SYTestPod",
+  "homepage": "https://github.com/panskycol/SYTestPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "hula": "panshiyu@shangyoo.com"
   },
   "source": {
-    "git": "https://github.com/hula/SYTestPod.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/panskycol/SYTestPod.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "10.0"

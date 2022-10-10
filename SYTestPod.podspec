@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SYTestPod/Classes/**/*'
-  s.ios.frameworks = 'SYTestPod/Classes/Frameworks/TPFBasicSDK.framework'
+  s.ios.frameworks = 'SYTestPod/Example/SYTestPodUpload/SYTestPodSDK.framework'
   # s.resource_bundles = {
   #   'SYTestPod' => ['SYTestPod/Assets/*.png']
   # }

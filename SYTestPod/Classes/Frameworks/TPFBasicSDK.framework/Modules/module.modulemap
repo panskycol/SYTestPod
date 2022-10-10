@@ -1,0 +1,6 @@
+framework module TPFBasicSDK {
+  umbrella header "TPFBasicSDK.h"
+
+  export *
+  module * { export * }
+}
